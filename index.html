@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css" />
+    <title>Dashboard</title>
+</head>
+
+<body style="background-color: #f7f8fc;">
+    <div id="dashboard-container">
+
+        <!-- DOC APP CONTAINER -->
+        <div id="doc-app-container">
+            <p>DocApp</p>
+            <div style="margin-left: 8px;">
+                <div class="icon-container dashboard">
+                    <div class="icons"
+                        style="background-color: #0075ff; color: #fff; box-shadow: 0 6.95652px 20.8696px rgb(45 100 191 / 40%);">
+                        <i class="fa fa-bars"></i></div>
+                    <p>Dashboard</p>
+                </div>
+                <div class="icon-container">
+                    <div class="icons"><i class="fa fa-calendar" aria-hidden="true"></i></div>
+                    <p>Calendar</p>
+                </div>
+                <div class="icon-container">
+                    <div class="icons"><i class="fa fa-user" aria-hidden="true"></i></div>
+                    <p>Profile</p>
+                </div>
+                <div class="icon-container">
+                    <div class="icons"><i class="fa fa-cog" aria-hidden="true"></i></div>
+                    <p>Settings</p>
+                </div>
+
+            </div>
+            <div class="image-container">
+                <img class="dr-img" src="./dr anne.PNG" alt="Dr Anne Snowdown" />
+                <p>Dr Anne Snowdon</p>
+            </div>
+            <div id="log-out">
+                <i class="fa fa-power-off" aria-hidden="true"></i>
+                <span style="font-size: 13px;">Log out</span>
+            </div>
+        </div>
+
+
+        <!-- YOUR DASHBOARD CONTAINER -->
+        <div id="your-dashboard-container">
+            <h2>Your dashboard</h2>
+            <div id="today-timeline-container">
+                <p style="font-size: 13px;">Today's timeline</p>
+                <div class="timeline-info" style="background-color: #ebeff7; color: #b3b1b1;">
+                    <i class="fa fa-clock-o" aria-hidden="true"></i>
+                    <p>Started shift</p>
+                    <p>06:00 AM</p>
+                </div>
+                <div class="timeline-info">
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                    <p>Appointment</p>
+                    <p>06:30 AM</p>
+                </div>
+                <div class="timeline-info">
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                    <p>Appointment</p>
+                    <p>07:00 AM</p>
+                </div>
+                <div class="timeline-info">
+                    <i class="fa fa-coffee" aria-hidden="true"></i>
+                    <p>Break</p>
+                    <p>07:30 AM</p>
+                </div>
+                <div class="timeline-info"
+                    style="border: 2px solid #0075ff; box-shadow: 0 6.95652px 20.8696px rgb(45 100 191 / 40%);color: #0075ff;">
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                    <p>Appointment</p>
+                    <p>07:30 AM</p>
+                </div>
+                <div class="timeline-info">
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                    <p>Appointment</p>
+                    <p>07:30 AM</p>
+                </div>
+            </div>
+            <hr>
+            <div id="end-timeline">
+                <div class="end-shift">
+                    <p style="font-size: 13px; padding-top: 12px;">End today's shift</p>
+                </div>
+                <div class="set-reminder">
+                    <p style="font-size: 13px; padding-top: 12px;">Set a reminder</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- APPOINTMENT CONTAINER -->
+        <div id="appointment-container">
+            <div>
+                <div id="may">
+                    <p>May, 2020</p>
+                    <div>
+                        <div style="margin-left: 25px;"></div>
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <p></p>
+                        <p></p>
+                        <p style="font-size: 12px; color: #fff; background-color: #0075ff; font-weight: bold;">17</p>
+                        <p></p>
+                        <div></div>
+                        <div></div>
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                    </div>
+                </div>
+                <div id="hello-anne">
+                    <div>
+                        <p style="font-size: 19px; font-weight: bold;">Hello, Anne!</p>
+                        <p style="width: 156px; font-size: 13px;">Don't forget to complete your daily health report.</p>
+                        <p>Have a nice day!</p>
+                        <p id="complete-report" style="font-size: 13px; padding-top: 12px;">Complete report</p>
+                    </div>
+                    <div><img src="./doc img.PNG" /></div>
+                </div>
+            </div>
+            <div id="outside-container">
+                <div id="todays-appointment-container">
+                    <h2 style="padding-top: 32px; font-size: 15px; margin-bottom: 24px;">Today's appointments</h2>
+                    <div>
+                        <div
+                            style="border:  2px solid #0075ff; box-shadow: 0 6.95652px 20.8696px rgb(45 100 191 / 45%);">
+                            <i style="margin-top: 15px; color: #0075ff; padding: 5px;
+                            border-radius: 12px; background-color: #e9f1ffad;" class="fa fa-user"
+                                aria-hidden="true"></i>
+                            <p style="font-size: 12px; width: 75px; font-weight: bold;">Jessica Ashcroft</p>
+                            <p style="font-size: 11px; color: grey;">Follow-up</p>
+
+                        </div>
+                        <p
+                            style="margin-top: 129px; margin-left: -120px; width: 58px; font-size: 11px; color: #0075ff;">
+                            Next, 08:00</p>
+
+
+                        <div style="width: 81px;">
+                            <i style="margin-top: 15px; color: #0075ff; padding: 5px;
+                            border-radius: 12px; background-color: #e9f1ffad;" class="fa fa-user"
+                                aria-hidden="true"></i>
+                            <p style="font-size: 12px; width: 68px; font-weight: bold; margin-left: 4px;">Lily Anderson
+                            </p>
+                            <p style="font-size: 11px; color: grey;">New-patient</p>
+
+                        </div>
+                        <p style="margin-top: 129px; margin-left: -103px; width: 32px; font-size: 11px; color: grey;">
+                            08:30</p>
+
+
+                        <div style="margin-left: 17px; width: 81px;">
+                            <i style="margin-top: 15px; color: #0075ff; padding: 5px;
+                            border-radius: 12px; background-color: #e9f1ffad;" class="fa fa-user"
+                                aria-hidden="true"></i>
+                            <p style="font-size: 12px; width: 64px; font-weight: bold; margin-left: 8px;">Amanda Lipp
+                            </p>
+                            <p style="font-size: 11px; color: grey;">New-patient</p>
+
+
+                        </div>
+                        <p style="margin-top: 129px; margin-left: -99px; width: 32px; font-size: 11px; color: grey;">
+                            09:00</p>
+                        <div style="margin-left: 17px; width: 81px;">
+                            <i style="margin-top: 15px; color: #0075ff; padding: 5px;
+                            border-radius: 12px; background-color: #e9f1ffad;" class="fa fa-user"
+                                aria-hidden="true"></i>
+                            <p style="font-size: 12px; width: 68px; font-weight: bold;">Adrienne Olly</p>
+                            <p style="font-size: 11px; color: grey;">Follow-up</p>
+
+                        </div>
+                        <p style="margin-top: 129px; margin-left: -99px; width: 32px; font-size: 11px; color: grey;">
+                            09:30</p>
+
+
+                        <div style="margin-left: 17px; width: 81px;">
+                            <i style="margin-top: 15px; color: #0075ff; padding: 5px;
+                            border-radius: 12px; background-color: #e9f1ffad;" class="fa fa-user"
+                                aria-hidden="true"></i>
+                            <p style="font-size: 12px; width: 62px; font-weight: bold; margin-left: 8px;">Alicia James</p>
+                            <p style="font-size: 11px; color: grey;">Follow-up</p>
+
+                        </div>
+                        <p style="margin-top: 129px; margin-left: -97px; width: 32px; font-size: 11px; color: grey;" s>
+                            11:30</p>
+
+                    </div>
+                </div>
+
+                <div id="monthly-reports-container">
+                    <h2 style="font-size: 15px; margin-bottom: 24px;">Monthly reports</h2>
+                    <div style="display: flex;">
+
+                        <div>
+                            <i style="margin-right: 11px; padding: 6px; border-radius: 6px; background-color: #f3eeeead; color: #0075ff;"
+                                class="fa fa-list-alt" aria-hidden="true"></i>
+                            <span style="margin-left: 28px; font-weight: bold; font-size: 10px;">Treatment report</span>
+                            <p style="margin-left: 73px; margin-top: 0px;"><progress
+                                    style="width: 110px; box-shadow: 0 6.95652px 20.8696px rgb(45 100 191 / 30%);"
+                                    id="file" value="85" max="100"> 85% </progress>
+                                <span style="float: right; color: #0075ff; font-size: 10px;">85%</span>
+                            </p>
+                        </div>
+                        <div>
+                            <i style="margin-right: 11px; padding: 6px; border-radius: 6px; background-color: #f3eeeead; color: #0075ff;"
+                                class="fa fa-list-alt" aria-hidden="true"></i>
+                            <span style="margin-left: 28px; font-weight: bold; font-size: 10px;">State of being
+                                report</span>
+                            <p style="margin-left: 73px; margin-top: 0px;"><progress
+                                    style="width: 110px; box-shadow: 0 6.95652px 20.8696px rgb(45 100 191 / 30%);"
+                                    id="file" value="75" max="100"> 75% </progress>
+                                <span style="float: right; color: #0075ff; font-size: 10px;">75%</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
